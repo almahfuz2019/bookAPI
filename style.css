@@ -3,11 +3,6 @@
             align-items: center;
         }
         
-        body {
-            margin: 0;
-            padding: 0;
-        }
-        
         .icon {
             margin-left: -197%;
             border-radius: 50%;
@@ -15,13 +10,12 @@
             color: orange;
         }
         
-        .ff {
+        .search-bar1 {
             border-radius: 80px !important;
             border: 1px solid orange !important;
-            /* background-color: orangered !important; */
         }
         
-        .full-search-bar {
+        .search-div {
             flex-direction: row;
             align-items: center
         }
