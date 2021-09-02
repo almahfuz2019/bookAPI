@@ -36,9 +36,11 @@ const displyUi = display => {
                 <div class="card full-card bg-light border border-1 shadow-sm">
                     <img src="https://covers.openlibrary.org/b/id/${book.cover_i}-M.jpg" class="card-img-top img-fluid imageSize" alt="...">
                     <div class="p-1">
-                    <p class="card-title fontSize">Book Name: ${book?.title}</p>
-                        <p class="card-text fontSize">Writer: ${book?.author_name}</p>
-                        <p class="card-text fontSize">edition_count:First Publish Year:${book?.first_publish_year} </p>
+                    
+                    
+                    <p class="card-title fontSize fw-bold">Book name: <span class="fw-normal primary">${book?.title}</span></p>
+                        <p class="card-text fontSize fw-bold">Author: <span class="fw-normal primary">${book?.author_name}</span></p>
+                        <p class="card-text fontSize fw-bold">First published date : <span class="fw-normal primary">${book?.first_publish_year}</span></p>
                         
                     </div>
                 </div>
