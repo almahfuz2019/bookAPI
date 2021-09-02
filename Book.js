@@ -14,6 +14,8 @@ const searchBox = () => {
                 .then(data => displyUi(data))
             inputFiled.value = '';
             searchError.innerHTML = '';
+
+
         }
     }
     // display UI part
