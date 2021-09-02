@@ -14,17 +14,19 @@
     <title>BookBazar</title>
 </head>
 
-<body class="bg-dark text-white">
-    <h1 class="text-center mt-5">B o o k B a z a r</h1>
+<body class="bg-white">
 
-    <section class="text-center mx-5  ">
-        <div class="row search-bar align-items-center">
-            <div class="col-6">
-                <div class="mb-3">
-                    <div class="d-flex full-search-bar">
 
-                        <input type="text" class="form-control ff" id="input-Filed" placeholder="search Your Faverate Book">
-                        <span><i class="fas fa-search bg-dark icon" onclick="searchBox()" id="search-btn"></i></span>
+    <h1 class="text-center mt-5">BOOK Bazar</h1>
+
+    <section class="text-center mx-5 ">
+        <div class="row search-bar align-items-center ">
+            <div class="col-6 ">
+                <div class="mb-3 ">
+                    <div class="d-flex full-search-bar ">
+
+                        <input type="text " class="form-control ff " id="input-Filed" placeholder="search Your Faverate Book ">
+                        <span><i class="fas fa-search bg-dark icon"   onclick="searchBox()" id="search-btn "></i></span>
 
 
                     </div>
@@ -34,26 +36,60 @@
         </div>
 
     </section>
+    <p class="text-center text-warning" id="total-book">Not Found</p>
+    <p class="text-center text-warning" id="error-message">Not Found</p>
+
     <!-- ui design -->
     <section>
-        <div class="card-group">
-            <div id="all-Book">
 
+        <!-- <div class="card-group ">
+            <div class="row ">
+                <div class="col-md-4 ">
+                    <div id="all-Book ">
+
+                    </div>
+                </div>
             </div>
+
+        </div> -->
+
+
+
+
+
+        <div class="row row-cols-1 row-cols-md-4 g-4 m-5 " id="all-Book">
+
+
         </div>
+
+
+
     </section>
-    <!-- <input type="text" id="search-field"> <button onclick="searchMeal()">Search</button>
-    <div id="spinner">Loading...</div>
-    <div id="meals">
+    <!-- <input type="text " id="search-field "> <button onclick="searchMeal() ">Search</button>
+    <div id="spinner ">Loading...</div>
+    <div id="meals ">
 
     </div> -->
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
     <!-- java file link -->
-    <script src="Book.js"></script>
+    <script src="Book.js "></script>
+
 </body>
 
 </html>
