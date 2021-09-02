@@ -21,7 +21,7 @@ const searchBox = () => {
     // display UI part
 const displyUi = display => {
     if (display.docs.length === 0) {
-        searchError.innerHTML = `Your search - didn't match our books. Please enter a
+        searchError.innerHTML = `Your search Result didn't match to our books. Please enter a
     correct name.`
     } else {
         totalBookitems.innerText = `Total Result-${display.numFound}`
